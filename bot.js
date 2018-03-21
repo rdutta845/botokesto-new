@@ -1,5 +1,6 @@
 const Botkit = require('botkit');
 const request = require('superagent');
+process.env.token = "xoxb-332924208375-jK3oXhGd5CEYNlAb27qpR1";
 // Cheking for the token
 if (!process.env.token) {
   console.error('Error: Specify a token in an environment variable');
